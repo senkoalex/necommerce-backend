@@ -1,6 +1,6 @@
 version: 2
 updates:
-  package-ecosystem: "rubygems"
-  directory: "/"
-  schedule:
-    interval:"hourly"
+  -  package-ecosystem: "rubygems"
+     directory: "/"
+     schedule:
+       interval:"hourly"
